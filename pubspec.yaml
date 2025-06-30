@@ -1,7 +1,7 @@
 name: stroke_gradient_text
-description: "A new Flutter project."
-version: 0.0.1
-homepage:
+description: "This is a component that supports both text borders and text gradients"
+version: 1.0.0
+homepage: https://github.com/tbtsfastad/stroke_gradient_text
 
 environment:
   sdk: ^3.6.0
