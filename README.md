@@ -1,6 +1,6 @@
 **Preview**
 
-![](https://github.com/tbtsfastad/stroke_gradient_text/blob/master/Screenshot_20250630_213153.png)
+![](https://raw.githubusercontent.com/tbtsfastad/stroke_gradient_text/refs/heads/master/Screenshot_20250630_213153.png)
 
 **How to use**
 
