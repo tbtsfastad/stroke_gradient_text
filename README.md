@@ -1,14 +1,30 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+**Preview**
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+![](https://github.com/tbtsfastad/stroke_gradient_text/blob/master/Screenshot_20250630_213153.png)
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+**How to use**
 
-This is a component that supports both text borders and text gradients
+Import
+
+```         
+import 'package:stroke_gradient_text/stroke_gradient_text.dart';
+```
+
+Example
+
+```         
+import 'package:flutter/material.dart';
+import 'package:stroke_gradient_text/stroke_gradient_text.dart';
+
+class Example extends StatelessWidget {
+  const Example({super.key});
+
+  @override
+  Widget build(BuildContext context) => StrokeAndGradientText(
+        strokeColor: Colors.red,
+        strokeWidth: 2,
+        gradient: LinearGradient(colors: [Colors.green, Colors.white]),
+        child: Text("data"),
+      );
+}
+```
