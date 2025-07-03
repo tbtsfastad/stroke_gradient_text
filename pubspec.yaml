@@ -1,6 +1,6 @@
 name: stroke_gradient_text
 description: "This is a component that supports both text borders and text gradients"
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/tbtsfastad/stroke_gradient_text
 
 environment:
